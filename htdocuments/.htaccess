@@ -1,0 +1,6 @@
+# WAA htaccess directives
+
+<FilesMatch "^(config\.php|$$install\.sql)$">
+	order allow,deny
+	deny from all
+</FilesMatch>
